@@ -14,6 +14,10 @@
 ## location_classification
 以 SVM 模型來學習辨識蛋白質的區域(domain)，並藉此將分類後續分子動力學模擬中所獲得該蛋白質的表面水分子所在位置。
 
+## redox_potential
+利用 gaussian09 計算氧化態與還原態的 free energy，再利用基本定義轉換為標準氧化還原電位
+參考文獻: Bridge- and Solvent-Mediated Intramolecular Electronic Communications in Ubiquinone-Based Biomolecular Wires (https://dx.doi.org/10.1038%2Fsrep10352)
+
 ## residence_time
 分析大量指定分子的遲滯時間，並利用格點技巧將該遲滯時間建立成可視覺化的檔案
 
@@ -24,7 +28,7 @@
 分析目標分子的表面其各局部區域的偶極矩
 
 
-### 下列論文發表使用上述工具進行分析與討論
+## 下列論文發表使用上述工具進行分析與討論
 Sheh-Yi Sheu, Yu-Cheng Liu and Dah-Yen Yang, Interfacial water effect on cooperativity and signal communication in Scapharca dimeric hemoglobin, Physical Chemistry Chemical Physics, 19, 7380-7389 (2017). (https://doi.org/10.1039/c7cp00280g)
 
 Sheh-Yi Sheu, Yu-Cheng Liu, Jia-Kai Zhou, Edward W. Schlag, and Dah-Yen Yang, Surface Topography Effects of Globular Biomolecules on Hydration Water, The Journal of Physical Chemistry B, Just Accepted Manuscript (2019). (https://doi.org/10.1021/acs.jpcb.9b03734)
